@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123456",
+    "database": "error-collect",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "123456",
+    "database": "error-collect",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "dialectOptions": {
+      "charset": "utf8mb4"
+    }
+  }
+}
