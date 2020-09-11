@@ -5,7 +5,7 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-module.exports = appInfo => {
+module.exports = (appInfo) => {
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
@@ -18,6 +18,7 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
+  //链接mysql数据库
   config.sequelize = {
     dialect: 'mysql',
     host: '127.0.0.1',
@@ -26,6 +27,19 @@ module.exports = appInfo => {
     dialectOptions: {
       charset: 'utf8mb4',
     },
+  };
+
+  //设置跨域
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true,
+    },
+    domainWhiteList: ['http://localhost:9988'],
+  };
+  config.cors = {
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
 
   // add your user config here

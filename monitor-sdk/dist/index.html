@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SDK</title>
+</head>
+<body>
+  <div id="container">
+    <div class="content">
+      <input type="button" value="点击出错" onclick="errorClick()">
+      <input type="button" value="点击promise出错" onclick="promiseErrorClick()">
+    </div>
+  </div>
+  <script>
+    function errorClick(){
+      window.someVar.error="error";
+    }
+    function promiseErrorClick(){
+      new Promise(function(resolve,reject){
+        window.someVar.error="error";
+      })
+    }
+  </script>
+ <script src="/a.js"></script>
+<script src="monitor.js"></script></body>
+</html>

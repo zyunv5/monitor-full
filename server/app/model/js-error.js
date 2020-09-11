@@ -1,7 +1,7 @@
 'use strict';
 
-module.exports = app => {
-  const { INTEGER, DATE, STRING, TEXT } = Sequelize;
+module.exports = (app) => {
+  const { INTEGER, DATE, STRING, TEXT } = app.Sequelize;
 
   const JsError = app.model.define('js-error', {
     id: { type: INTEGER, primaryKey: true, autoIncrement: true },
