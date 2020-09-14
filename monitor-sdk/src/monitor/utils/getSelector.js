@@ -1,4 +1,3 @@
-
 function getSelectors(path){
   return path.reverse().filter(element=>{
     return element!==document&&element!==window
@@ -12,7 +11,7 @@ function getSelectors(path){
       selector=element.nodeName.toLowerCase()
     }
     return selector;
-  }).join(' ')
+  }).join('>')
 }
 
 export default function(pathsOrTarget){

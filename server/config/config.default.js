@@ -5,7 +5,7 @@
 /**
  * @param {Egg.EggAppInfo} appInfo app info
  */
-module.exports = (appInfo) => {
+module.exports = appInfo => {
   /**
    * built-in config
    * @type {Egg.EggAppConfig}
@@ -27,6 +27,8 @@ module.exports = (appInfo) => {
     dialectOptions: {
       charset: 'utf8mb4',
     },
+    username: 'root',
+    password: 'admin',
   };
 
   //设置跨域
@@ -35,7 +37,7 @@ module.exports = (appInfo) => {
       enable: false,
       ignoreJSON: true,
     },
-    domainWhiteList: ['http://localhost:9988'],
+    domainWhiteList: ['http://localhost:8899', 'http://localhost:9988'],
   };
   config.cors = {
     origin: '*',

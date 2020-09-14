@@ -2,49 +2,13 @@
 /**
  * @param {Egg.Application} app - egg application
  */
-module.exports = (app) => {
+module.exports = app => {
   const { router, controller } = app;
   router.get('/', controller.home.index);
-};
-/**
- * @param {Egg.Application} app - 监控平台 js报错
- * 获取数据
- */
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.get('/jsError', controller.jsError.index);
-};
-/**
- * @param {Egg.Application} app - 监控平台 js报错
- * 添加数据
- */
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.post('/jsError/item', controller.jsError.create);
-};
-/**
- * @param {Egg.Application} app - 监控平台 性能监控
- * 获取数据
- */
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.post('/paint', controller.Paint.index);
-};
-/**
- * @param {Egg.Application} app - 监控平台 性能监控
- * 添加数据
- */
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.post('/paint/item', controller.Paint.create);
-};
-
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.post('/monitor/blankScreen', controller.monitor.blankScreen);
-};
-
-module.exports = (app) => {
-  const { router, controller } = app;
-  router.get('/monitor', controller.monitor.index);
+  router.get('/error', controller.error.index);
+  router.get('/error/item', controller.error.create);
+  router.get('/paint', controller.paint.index);
+  router.get('/paint/item', controller.paint.create);
+  router.get('/blankscreen', controller.blankScreen.index);
+  router.get('/blankscreen/item', controller.blankScreen.create);
 };

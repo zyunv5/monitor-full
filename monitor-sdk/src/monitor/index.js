@@ -4,5 +4,5 @@ import {blankScreen} from "./lib/blankScreen"
 import {timing} from "./lib/timing"
 injectJsError();
 injectXHR();
-// blankScreen();//页面上选取点 看点是不是空白的
+blankScreen();//页面上选取点 看点是不是空白的
 // timing();

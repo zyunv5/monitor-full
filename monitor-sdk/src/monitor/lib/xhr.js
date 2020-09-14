@@ -17,16 +17,16 @@ export function injectXHR() {
         let duration = Date.now() - startTime; //持续时间
         let status = this.statusText; //200 500
         let statusText = this.statusText; //OK Server Error
-        tracker.send({
-          kind: "stability",
-          type: "xhr",
-          eventType: type, //load error abort
-          pathname: this.logData.url, //请求路径
-          status: status + "-" + statusText, //状态码
-          duration, //持续时间
-          response: this.response ? JSON.stringify(this.response) : "", //响应体
-          params: body || "",
-        });
+        // tracker.send('localhost:8899/jsError/item?',{
+        //   kind: "stability",
+        //   type: "xhr",
+        //   eventType: type, //load error abort
+        //   pathname: this.logData.url, //请求路径
+        //   status: status + "-" + statusText, //状态码
+        //   duration, //持续时间
+        //   response: this.response ? JSON.stringify(this.response) : "", //响应体
+        //   params: body || "",
+        // });
       };
       this.addEventListener("load", handler("load"), false);
       this.addEventListener("error", handler("error"), false);

@@ -1,5 +1,6 @@
 //白屏监控
 import tracker from "../utils/tracker";
+import createImage from '../utils/image';
 import onload from "../lib/onload";
 
 export function blankScreen() {
@@ -44,7 +45,7 @@ export function blankScreen() {
         window.innerWidth / 2,
         window.innerHeight / 2
       );
-      tracker.send({
+      createImage('http://localhost:8899/blankscreen/item',{
         kind: "stability",
         type: "blank",
         emptyPoints,
