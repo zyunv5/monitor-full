@@ -1,0 +1,225 @@
+2020-09-14 09:38:01,043 INFO 51410 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 10:27:21,737 INFO 52577 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 10:58:58,547 INFO 53205 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 10:59:46,018 INFO 53229 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:00:24,428 INFO 53244 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:00:37,368 INFO 53257 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:00:51,975 INFO 53261 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:01:19,679 INFO 53273 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:10:14,233 INFO 53848 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:10:41,501 INFO 53862 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:12:05,488 INFO 53882 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:13:27,061 INFO 53907 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:13:35,021 INFO 53915 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:13:37,183 INFO 53926 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:13:41,686 INFO 53932 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:13:51,598 INFO 53942 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:14:31,737 INFO 53959 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:22,773 INFO 53978 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:30,999 INFO 53984 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:38,652 INFO 53998 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:41,864 INFO 54000 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:54,190 INFO 54008 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:15:57,610 INFO 54009 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:16:04,921 INFO 54017 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:16:51,620 INFO 54054 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:16:53,886 INFO 54055 [egg-sequelize](8ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:17:03,117 INFO 54059 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:17:36,611 INFO 54075 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:18:15,557 INFO 54080 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:21:39,129 INFO 54136 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:22:04,477 INFO 54144 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:23:07,682 INFO 54161 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:23:10,256 INFO 54162 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:23:24,404 INFO 54164 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:23:25,943 INFO 54165 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:35:34,565 INFO 54674 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:35:41,803 INFO 54675 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:35:47,870 INFO 54678 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:36:01,743 INFO 54679 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:36:20,508 INFO 54685 [egg-sequelize](5ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:36:50,018 INFO 54698 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:37:55,673 INFO 54712 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:38:27,248 INFO 54718 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:44:15,090 INFO 54837 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:48:01,514 INFO 54893 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:58:03,018 INFO 55011 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:58:13,008 INFO 55020 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:58:59,773 INFO 55041 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 11:59:16,147 INFO 55047 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 16:55:01,848 WARN 58238 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 16:55:02,867 WARN 58238 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 16:55:03,881 WARN 58238 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 16:55:04,897 ERROR 58238 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 58238
+hostname: ZyunMBP.local
+
+2020-09-14 17:04:53,267 WARN 58374 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:04:54,281 WARN 58374 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:04:55,292 WARN 58374 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:04:56,304 ERROR 58374 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 58374
+hostname: ZyunMBP.local
+
+2020-09-14 17:05:01,441 WARN 58381 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:05:02,450 WARN 58381 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:05:03,460 WARN 58381 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-14 17:05:04,473 ERROR 58381 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 58381
+hostname: ZyunMBP.local
+
+2020-09-14 17:24:52,395 INFO 60057 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:25:14,650 INFO 60063 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:28:28,279 INFO 60124 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:28:29,526 INFO 60126 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:28:34,732 INFO 60126 [egg-sequelize](12ms) Executed (default): INSERT INTO `js-errors` (`id`,`title`,`current_url`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`selector`,`message`,`position`,`stack`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 17:29:01,052 INFO 60126 [egg-sequelize](11ms) Executed (default): INSERT INTO `js-errors` (`id`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?);
+2020-09-14 17:33:05,546 INFO 60365 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:33:54,003 INFO 60376 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:34:10,242 INFO 60381 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:38:22,234 INFO 60434 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:38:54,856 INFO 60445 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:39:40,085 INFO 60445 [egg-sequelize](2ms) Executed (default): INSERT INTO `js-errors` (`id`,`title`,`current_url`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`selector`,`message`,`position`,`stack`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 17:42:07,145 INFO 60638 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:45:47,756 INFO 60681 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:45:55,043 INFO 60681 [egg-sequelize](3ms) Executed (default): INSERT INTO `js-errors` (`id`,`title`,`current_url`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`message`,`position`,`stack`,`selector`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 17:46:26,949 INFO 60685 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:47:36,711 INFO 60721 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:47:40,157 INFO 60721 [egg-sequelize](4ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`current_url`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`message`,`position`,`stack`,`selector`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 17:57:00,033 INFO 60820 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 17:57:05,184 INFO 60820 [egg-sequelize](2ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`message`,`position`,`stack`,`selector`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 17:58:54,538 INFO 60856 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:02:42,521 INFO 61003 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:02:45,159 INFO 61003 [egg-sequelize](1ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`current_url`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`message`,`position`,`stack`,`selector`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 18:05:35,380 INFO 61030 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:05:37,365 INFO 61030 [egg-sequelize](1ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`currentUrl`,`timestamp`,`user_agent`,`kind`,`type`,`error_type`,`filename`,`message`,`position`,`stack`,`selector`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 18:06:54,163 INFO 61041 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:07:30,885 INFO 61045 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:07:32,114 INFO 61046 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:07:43,296 INFO 61046 [egg-sequelize](7ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`currentUrl`,`timestamp`,`userAgent`,`kind`,`type`,`errorType`,`filename`,`message`,`position`,`stack`,`selector`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 18:10:22,297 INFO 61111 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:10:23,714 INFO 61113 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:12:03,917 INFO 61140 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:12:08,621 INFO 61144 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:12:42,962 INFO 61144 [egg-sequelize](5ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
+2020-09-14 18:12:55,619 INFO 61154 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:14:54,795 INFO 61154 [egg-sequelize](8ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
+2020-09-14 18:15:05,465 INFO 61154 [egg-sequelize](9ms) Executed (default): INSERT INTO `js-error` (`id`,`title`,`currentUrl`,`timestamp`,`userAgent`,`kind`,`type`,`errorType`,`filename`,`message`,`position`,`stack`,`selector`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+2020-09-14 18:15:11,495 INFO 61154 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
+2020-09-14 18:23:12,817 INFO 61352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:24:55,688 INFO 61408 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:25:36,928 INFO 61430 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:25:52,081 INFO 61441 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:26:27,065 INFO 61455 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:26:50,164 INFO 61465 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:27:14,858 INFO 61480 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:27:40,404 INFO 61493 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:29:02,690 INFO 61546 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-14 18:29:07,165 ERROR 61546 [-/::1/-/5ms GET /blankscreen/item?title=SDK&currentUrl=http://localhost:9988/&timestamp=1600079347107&userAgent=chrome&kind=stability&type=blank&emptyPoints=18&screen=1440X900&viewPoint=592X765&selector=html.gif] nodejs.TypeError: Cannot read property 'create' of undefined
+    at blankScreenController.create (/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/blankScreen.js:13:48)
+    at Object.callFn (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at i18n (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at dta (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at xframe (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/koa-compose/index.js:47:32)
+    at xssProtection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+
+pid: 61546
+hostname: ZyunMBP.local
+

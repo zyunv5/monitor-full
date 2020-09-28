@@ -5,8 +5,8 @@ export default function() {
   return (
     <div className={styles.normal}>
       <ul className={styles.list}>
-        <li></li>
-        <li></li>
+        <li>aa</li>
+        <li>bb</li>
       </ul>
     </div>
   );

@@ -1,0 +1,17 @@
+2020-09-12 08:02:53,766 INFO 29587 [egg-logrotator] agent logger reload: got log-reload message
+2020-09-12 09:00:09,528 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 1934002ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 11:40:47,075 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7216701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+

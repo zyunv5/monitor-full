@@ -1,0 +1,61 @@
+2020-09-16 08:48:40,527 INFO 61546 [egg-logrotator] app logger reload: got log-reload message
+2020-09-16 12:54:30,893 WARN 61546 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-16 12:54:31,099 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:03:56,600 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:08:04,816 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:14:37,054 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:17:42,794 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:21:48,526 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:23:38,619 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:26:35,148 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:28:44,308 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:30:04,719 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:33:35,510 WARN 61546 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-16 13:33:35,510 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:37:00,246 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:40:19,662 WARN 61546 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-09-16 13:40:19,663 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:46:17,185 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:48:52,973 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 13:56:44,379 WARN 61546 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-16 14:04:31,220 INFO 61546 [-/127.0.0.1/-/924ms SCHEDULE /__schedule?path=/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/server"
+2020-09-16 14:04:37,282 INFO 61546 [-/127.0.0.1/-/7021ms SCHEDULE /__schedule?path=/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-17 09:52:20,905 INFO 94406 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-17 09:52:20,931 INFO 94406 [egg-multipart] stream mode enable
+2020-09-17 09:52:21,250 INFO 94406 [egg-static] starting static serve /public/ -> /Users/admin/Documents/zy/zyTest/monitor-full/server/app/public
+2020-09-17 09:52:21,253 INFO 94406 [egg-security] use methodnoallow middleware
+2020-09-17 09:52:21,254 INFO 94406 [egg-security] use noopen middleware
+2020-09-17 09:52:21,254 INFO 94406 [egg-security] use nosniff middleware
+2020-09-17 09:52:21,255 INFO 94406 [egg-security] use xssProtection middleware
+2020-09-17 09:52:21,256 INFO 94406 [egg-security] use xframe middleware
+2020-09-17 09:52:21,256 INFO 94406 [egg-security] use dta middleware
+2020-09-17 09:52:21,256 INFO 94406 [egg-security] compose 6 middlewares into one security middleware
+2020-09-17 09:52:21,266 INFO 94406 [egg:core] dump config after load, 5ms
+2020-09-17 09:52:21,284 INFO 94406 [egg-watcher:application] watcher start success
+2020-09-17 09:52:21,324 INFO 94406 [egg:core] dump config after ready, 12ms
+2020-09-17 09:58:08,412 INFO 94661 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-17 09:58:08,483 INFO 94661 [egg-multipart] stream mode enable
+2020-09-17 09:58:09,133 INFO 94661 [egg-static] starting static serve /public/ -> /Users/admin/Documents/zy/zyTest/monitor-full/server/app/public
+2020-09-17 09:58:09,135 INFO 94661 [egg-security] use methodnoallow middleware
+2020-09-17 09:58:09,135 INFO 94661 [egg-security] use noopen middleware
+2020-09-17 09:58:09,135 INFO 94661 [egg-security] use nosniff middleware
+2020-09-17 09:58:09,135 INFO 94661 [egg-security] use xssProtection middleware
+2020-09-17 09:58:09,136 INFO 94661 [egg-security] use xframe middleware
+2020-09-17 09:58:09,138 INFO 94661 [egg-security] use dta middleware
+2020-09-17 09:58:09,138 INFO 94661 [egg-security] compose 6 middlewares into one security middleware
+2020-09-17 09:58:09,146 INFO 94661 [egg:core] dump config after load, 3ms
+2020-09-17 09:58:09,167 INFO 94661 [egg-watcher:application] watcher start success
+2020-09-17 09:58:09,311 INFO 94661 [egg:core] dump config after ready, 19ms
+2020-09-28 15:41:55,226 INFO 3243 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-28 15:41:55,249 INFO 3243 [egg-multipart] stream mode enable
+2020-09-28 15:41:55,592 INFO 3243 [egg-static] starting static serve /public/ -> /Users/admin/Documents/zy/zyTest/monitor-full/server/app/public
+2020-09-28 15:41:55,594 INFO 3243 [egg-security] use methodnoallow middleware
+2020-09-28 15:41:55,596 INFO 3243 [egg-security] use noopen middleware
+2020-09-28 15:41:55,597 INFO 3243 [egg-security] use nosniff middleware
+2020-09-28 15:41:55,597 INFO 3243 [egg-security] use xssProtection middleware
+2020-09-28 15:41:55,598 INFO 3243 [egg-security] use xframe middleware
+2020-09-28 15:41:55,598 INFO 3243 [egg-security] use dta middleware
+2020-09-28 15:41:55,599 INFO 3243 [egg-security] compose 6 middlewares into one security middleware
+2020-09-28 15:41:55,610 INFO 3243 [egg:core] dump config after load, 5ms
+2020-09-28 15:41:55,633 INFO 3243 [egg-watcher:application] watcher start success
+2020-09-28 15:41:55,654 INFO 3243 [egg:core] dump config after ready, 7ms

@@ -1,0 +1,9 @@
+2020-09-15 07:07:41,009 INFO 61546 [Job#160012486100228262065182622221] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-09-15 07:07:41,040 INFO 61546 [Job#160012486100228262065182622221] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 30ms. 
+2020-09-15 07:07:41,017 INFO 60056 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 76938995ms at 2020-09-16 04:30:00.012
+2020-09-16 08:48:39,644 INFO 60056 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 54680412ms at 2020-09-17 00:00:00.055
+2020-09-16 08:48:39,718 INFO 61546 [Job#160021731953128869456724354342] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-09-16 08:48:39,835 INFO 61546 [Job#160021731953128869456724354342] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 95ms. 
+2020-09-16 08:48:40,484 INFO 61546 [Job#160021732047928869466154483802] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-09-16 08:48:40,509 INFO 61546 [Job#160021732047928869466154483802] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 20ms. 
+2020-09-16 08:48:40,489 INFO 60056 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 54680517ms at 2020-09-17 00:00:01.005

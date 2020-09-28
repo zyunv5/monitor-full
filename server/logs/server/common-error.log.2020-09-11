@@ -1,0 +1,172 @@
+2020-09-11 11:09:13,173 ERROR 21205 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21205
+hostname: ZyunMBP.local
+
+2020-09-11 11:34:18,940 ERROR 21697 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21697
+hostname: ZyunMBP.local
+
+2020-09-11 11:52:37,057 ERROR 21962 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21962
+hostname: ZyunMBP.local
+
+2020-09-11 11:57:02,600 ERROR 22154 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 22154
+hostname: ZyunMBP.local
+
+2020-09-11 19:47:08,311 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 1958169ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-11 21:25:11,915 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 3402850ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-11 22:52:20,861 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 2207984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 01:30:38,075 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7076454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 04:29:56,223 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7217022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 07:30:34,422 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7217006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+

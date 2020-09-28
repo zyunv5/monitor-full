@@ -1,0 +1,297 @@
+2020-09-10 11:19:04,751 INFO 2478 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-10 11:19:04,771 INFO 2478 [egg:core] dump config after load, 12ms
+2020-09-10 11:19:04,882 INFO 2478 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-10 11:19:04,882 INFO 2478 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-10 11:19:04,883 INFO 2478 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-10 11:19:04,883 INFO 2478 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-10 11:19:04,883 INFO 2478 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-10 11:19:04,883 INFO 2478 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-10 11:19:04,886 INFO 2478 [egg-watcher:agent] watcher start success
+2020-09-10 11:19:04,963 INFO 2478 [egg:core] dump config after ready, 26ms
+2020-09-10 11:19:06,984 INFO 2478 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109769915,"size":64,"blocks":0,"atimeMs":1599707946973.2795,"mtimeMs":1599707946973.2795,"ctimeMs":1599707946973.2795,"birthtimeMs":1599707946973.2795,"atime":"2020-09-10T03:19:06.973Z","mtime":"2020-09-10T03:19:06.973Z","ctime":"2020-09-10T03:19:06.973Z","birthtime":"2020-09-10T03:19:06.973Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-09-10 11:20:50,650 INFO 2614 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-10 11:20:50,660 INFO 2614 [egg:core] dump config after load, 6ms
+2020-09-10 11:20:50,713 INFO 2614 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-10 11:20:50,713 INFO 2614 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-10 11:20:50,713 INFO 2614 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-10 11:20:50,713 INFO 2614 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-10 11:20:50,714 INFO 2614 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-10 11:20:50,714 INFO 2614 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-10 11:20:50,714 INFO 2614 [egg-watcher:agent] watcher start success
+2020-09-10 11:20:50,983 INFO 2614 [egg:core] dump config after ready, 13ms
+2020-09-10 11:22:09,422 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js rename
+2020-09-10 11:22:09,216 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"rename","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":0,"blocks":0,"atimeMs":1599708129079.7805,"mtimeMs":1599708129079.7805,"ctimeMs":1599708129079.7805,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T03:22:09.080Z","mtime":"2020-09-10T03:22:09.080Z","ctime":"2020-09-10T03:22:09.080Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:36,388 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js change
+2020-09-10 11:22:36,182 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":231,"blocks":8,"atimeMs":1599708156179.8523,"mtimeMs":1599708156119.2788,"ctimeMs":1599708156119.2788,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T03:22:36.180Z","mtime":"2020-09-10T03:22:36.119Z","ctime":"2020-09-10T03:22:36.119Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:39,678 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js change
+2020-09-10 11:22:39,422 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":230,"blocks":8,"atimeMs":1599708159411.643,"mtimeMs":1599708159411.6516,"ctimeMs":1599708159411.6516,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T03:22:39.412Z","mtime":"2020-09-10T03:22:39.412Z","ctime":"2020-09-10T03:22:39.412Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:39,472 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":230,"blocks":8,"atimeMs":1599708159438.631,"mtimeMs":1599708159411.6516,"ctimeMs":1599708159411.6516,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T03:22:39.439Z","mtime":"2020-09-10T03:22:39.412Z","ctime":"2020-09-10T03:22:39.412Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:41,939 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":296,"blocks":8,"atimeMs":1599708161928.0579,"mtimeMs":1599708161927.9915,"ctimeMs":1599708161927.9915,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:22:41.928Z","mtime":"2020-09-10T03:22:41.928Z","ctime":"2020-09-10T03:22:41.928Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:41,990 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":296,"blocks":8,"atimeMs":1599708161928.0579,"mtimeMs":1599708161927.9915,"ctimeMs":1599708161927.9915,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:22:41.928Z","mtime":"2020-09-10T03:22:41.928Z","ctime":"2020-09-10T03:22:41.928Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:42,196 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-10 11:22:45,272 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-10 11:22:45,018 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":296,"blocks":8,"atimeMs":1599708165007.885,"mtimeMs":1599708165007.8958,"ctimeMs":1599708165007.8958,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:22:45.008Z","mtime":"2020-09-10T03:22:45.008Z","ctime":"2020-09-10T03:22:45.008Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:22:45,069 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":296,"blocks":8,"atimeMs":1599708165068.6233,"mtimeMs":1599708165007.8958,"ctimeMs":1599708165007.8958,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:22:45.069Z","mtime":"2020-09-10T03:22:45.008Z","ctime":"2020-09-10T03:22:45.008Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:23:18,528 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-10 11:23:18,325 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":351,"blocks":8,"atimeMs":1599708198263.272,"mtimeMs":1599708198263.1072,"ctimeMs":1599708198263.1072,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:23:18.263Z","mtime":"2020-09-10T03:23:18.263Z","ctime":"2020-09-10T03:23:18.263Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 11:24:16,732 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-10 11:24:16,528 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":357,"blocks":8,"atimeMs":1599708256482.4688,"mtimeMs":1599708256467.2927,"ctimeMs":1599708256467.2927,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T03:24:16.482Z","mtime":"2020-09-10T03:24:16.467Z","ctime":"2020-09-10T03:24:16.467Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 14:56:20,020 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js change
+2020-09-10 14:56:19,801 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":497,"blocks":8,"atimeMs":1599720979785.1838,"mtimeMs":1599720979725.419,"ctimeMs":1599720979725.419,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T06:56:19.785Z","mtime":"2020-09-10T06:56:19.725Z","ctime":"2020-09-10T06:56:19.725Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 14:59:03,319 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js change
+2020-09-10 14:59:03,114 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/monitor.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":109775719,"size":760,"blocks":8,"atimeMs":1599721143064.5127,"mtimeMs":1599721143053.9988,"ctimeMs":1599721143053.9988,"birthtimeMs":1599708129079.7805,"atime":"2020-09-10T06:59:03.065Z","mtime":"2020-09-10T06:59:03.054Z","ctime":"2020-09-10T06:59:03.054Z","birthtime":"2020-09-10T03:22:09.080Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-10 15:03:26,227 WARN 2614 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-10 15:03:26,019 INFO 2614 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":0,"gid":80,"rdev":0,"blksize":4096,"ino":109725066,"size":1165,"blocks":8,"atimeMs":1599721406016.6038,"mtimeMs":1599721405956.503,"ctimeMs":1599721405956.503,"birthtimeMs":1599707364261.6287,"atime":"2020-09-10T07:03:26.017Z","mtime":"2020-09-10T07:03:25.957Z","ctime":"2020-09-10T07:03:25.957Z","birthtime":"2020-09-10T03:09:24.262Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-11 11:09:10,135 WARN 21205 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:09:09,453 INFO 21205 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 11:09:10,064 INFO 21205 [egg:core] dump config after load, 8ms
+2020-09-11 11:09:10,104 INFO 21205 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 11:09:10,104 INFO 21205 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 11:09:10,105 INFO 21205 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 11:09:10,105 INFO 21205 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 11:09:10,105 INFO 21205 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 11:09:10,105 INFO 21205 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 11:09:10,105 INFO 21205 [egg-watcher:agent] watcher start success
+2020-09-11 11:09:11,151 WARN 21205 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:09:12,163 WARN 21205 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:09:13,173 ERROR 21205 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21205
+hostname: ZyunMBP.local
+
+2020-09-11 11:09:13,181 INFO 21205 [egg:core] dump config after ready, 7ms
+2020-09-11 11:34:15,893 WARN 21697 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:34:15,412 INFO 21697 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 11:34:15,802 INFO 21697 [egg:core] dump config after load, 5ms
+2020-09-11 11:34:15,847 INFO 21697 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 11:34:15,847 INFO 21697 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 11:34:15,847 INFO 21697 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 11:34:15,848 INFO 21697 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 11:34:15,848 INFO 21697 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 11:34:15,848 INFO 21697 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 11:34:15,848 INFO 21697 [egg-watcher:agent] watcher start success
+2020-09-11 11:34:16,914 WARN 21697 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:34:17,928 WARN 21697 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:34:18,940 ERROR 21697 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21697
+hostname: ZyunMBP.local
+
+2020-09-11 11:34:18,946 INFO 21697 [egg:core] dump config after ready, 4ms
+2020-09-11 11:52:34,014 WARN 21962 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:52:33,554 INFO 21962 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 11:52:33,916 INFO 21962 [egg:core] dump config after load, 5ms
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 11:52:33,958 INFO 21962 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 11:52:33,959 INFO 21962 [egg-watcher:agent] watcher start success
+2020-09-11 11:52:35,034 WARN 21962 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:52:36,044 WARN 21962 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:52:37,058 ERROR 21962 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 21962
+hostname: ZyunMBP.local
+
+2020-09-11 11:52:37,065 INFO 21962 [egg:core] dump config after ready, 6ms
+2020-09-11 11:56:59,577 WARN 22154 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:56:59,141 INFO 22154 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 11:56:59,486 INFO 22154 [egg:core] dump config after load, 5ms
+2020-09-11 11:56:59,543 INFO 22154 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 11:56:59,544 INFO 22154 [egg-watcher:agent] watcher start success
+2020-09-11 11:57:00,585 WARN 22154 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:57:01,591 WARN 22154 Sequelize Error: Access denied for user 'root'@'localhost' (using password: NO), sleep 1 seconds to retry...
+2020-09-11 11:57:02,600 ERROR 22154 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19
+From previous event:
+    at ConnectionManager.connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:50
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at ConnectionManager._connect (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:318:8)
+    at ConnectionManager.getConnection (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:254:46)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:650:36
+From previous event:
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:53
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/retry-as-promised/index.js:60:10)
+    at /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:641:30
+From previous event:
+    at Sequelize.query (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:590:23)
+    at Sequelize.authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/sequelize/lib/sequelize.js:902:17)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:13)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async authenticate (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:142:7)
+    at async Promise.all (index 0)
+    at async /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-sequelize/lib/loader.js:40:5
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 22154
+hostname: ZyunMBP.local
+
+2020-09-11 11:57:02,609 INFO 22154 [egg:core] dump config after ready, 8ms
+2020-09-11 15:47:05,494 INFO 26007 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-09-11 15:47:05,003 INFO 26007 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 15:47:05,397 INFO 26007 [egg:core] dump config after load, 3ms
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 15:47:05,451 INFO 26007 [egg-watcher:agent] watcher start success
+2020-09-11 15:47:05,501 INFO 26007 [egg:core] dump config after ready, 5ms
+2020-09-11 17:11:38,646 WARN 26007 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/jsError.js change
+2020-09-11 17:11:38,387 INFO 26007 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/jsError.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":110535686,"size":456,"blocks":8,"atimeMs":1599815498346.5322,"mtimeMs":1599815498235.3835,"ctimeMs":1599815498235.3835,"birthtimeMs":1599788497400.9102,"atime":"2020-09-11T09:11:38.347Z","mtime":"2020-09-11T09:11:38.235Z","ctime":"2020-09-11T09:11:38.235Z","birthtime":"2020-09-11T01:41:37.401Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-11 17:11:38,443 INFO 26007 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/controller/jsError.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":110535686,"size":456,"blocks":8,"atimeMs":1599815498346.5322,"mtimeMs":1599815498235.3835,"ctimeMs":1599815498235.3835,"birthtimeMs":1599788497400.9102,"atime":"2020-09-11T09:11:38.347Z","mtime":"2020-09-11T09:11:38.235Z","ctime":"2020-09-11T09:11:38.235Z","birthtime":"2020-09-11T01:41:37.401Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-11 17:11:42,670 WARN 26007 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-11 17:11:42,464 INFO 26007 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":110535687,"size":1265,"blocks":8,"atimeMs":1599815502462.4211,"mtimeMs":1599815502452.2722,"ctimeMs":1599815502452.2722,"birthtimeMs":1599788497404.104,"atime":"2020-09-11T09:11:42.462Z","mtime":"2020-09-11T09:11:42.452Z","ctime":"2020-09-11T09:11:42.452Z","birthtime":"2020-09-11T01:41:37.404Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-11 18:10:35,491 INFO 29587 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-11 18:10:35,059 INFO 29587 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-09-11 18:10:35,373 INFO 29587 [egg:core] dump config after load, 6ms
+2020-09-11 18:10:35,421 INFO 29587 [egg-watcher] Start watching: ["/Users/admin/Documents/zy/zyTest/monitor-full/server/app","/Users/admin/Documents/zy/zyTest/monitor-full/server/config","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks","/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy","/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"]
+2020-09-11 18:10:35,421 INFO 29587 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app"
+2020-09-11 18:10:35,422 INFO 29587 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/config"
+2020-09-11 18:10:35,422 INFO 29587 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks"
+2020-09-11 18:10:35,422 INFO 29587 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/mocks_proxy"
+2020-09-11 18:10:35,422 INFO 29587 [egg-watcher] Start watching: "/Users/admin/Documents/zy/zyTest/monitor-full/server/app.js"
+2020-09-11 18:10:35,422 INFO 29587 [egg-watcher:agent] watcher start success
+2020-09-11 18:10:35,503 INFO 29587 [egg:core] dump config after ready, 10ms
+2020-09-11 18:12:06,771 WARN 29587 [agent:development] reload worker because /Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js change
+2020-09-11 18:12:06,562 INFO 29587 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"/Users/admin/Documents/zy/zyTest/monitor-full/server/app/router.js","stat":{"dev":16777220,"mode":33279,"nlink":1,"uid":501,"gid":80,"rdev":0,"blksize":4096,"ino":110535687,"size":1265,"blocks":8,"atimeMs":1599819126559.0872,"mtimeMs":1599819126486.7834,"ctimeMs":1599819126486.7834,"birthtimeMs":1599788497404.104,"atime":"2020-09-11T10:12:06.559Z","mtime":"2020-09-11T10:12:06.487Z","ctime":"2020-09-11T10:12:06.487Z","birthtime":"2020-09-11T01:41:37.404Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-09-11 19:47:08,315 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 1958169ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-11 21:25:11,916 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 3402850ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-11 22:52:20,861 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 2207984ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 01:30:38,076 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7076454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 04:29:56,224 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7217022ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+
+2020-09-12 07:30:34,424 ERROR 29587 nodejs.ClusterClientNoResponseError: client no response in 7217006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 29587
+hostname: ZyunMBP.local
+

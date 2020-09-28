@@ -1,0 +1,313 @@
+{
+  "keys": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+  "middleware": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "host": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "port": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "database": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "dialectOptions": {
+      "charset": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js"
+    },
+    "username": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "password": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js"
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+      "ignoreJSON": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+      "type": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "protocolWhiteList": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js",
+    "allowMethods": "/Users/admin/Documents/zy/zyTest/monitor-full/server/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "url": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "port": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg/config/config.default.js"
+}
