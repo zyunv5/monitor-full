@@ -19,7 +19,24 @@ module.exports = {
         'chore', // 其他改动
       ],
     ],
-    'type-empty': [2, 'never'], // 提交不符合规范时,也可以提交,但是会有警告
+    'type-empty': [
+      2,
+      'always',
+      [
+        'build',
+        'ci',
+        'feat',
+        'fix',
+        'docs',
+        'perf',
+        'style',
+        'refactor',
+        'test',
+        'revert',
+        'config',
+        'chore',
+      ],
+    ],
     'subject-empty': [2, 'never'], // 提交不符合规范时,也可以提交,但是会有警告
     'subject-full-stop': [0, 'never'],
     'subject-case': [0, 'never'],

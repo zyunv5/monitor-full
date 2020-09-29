@@ -36,11 +36,11 @@
     "umi-plugin-react": "^1.8.0",
     "umi-types": "^0.3.0"
   },
-  "husky":{
-    "hooks":{
+  "husky": {
+    "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS",
-      "pre-push":"echo 我准备推送代码"
+      "pre-push": "echo 我准备推送代码"
     }
   },
   "lint-staged": {
