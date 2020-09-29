@@ -1,0 +1,24 @@
+2020-09-16 14:04:30,602 INFO 60056 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51933984ms at 2020-09-17 04:30:04.131
+2020-09-16 14:04:30,056 INFO 61546 [Job#160023626400129031462607299662] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2020-09-16 14:04:37,283 INFO 61546 [Job#160023626400129031462607299662] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 7056ms. 
+2020-09-17 09:52:21,330 INFO 94397 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 67058672ms at 2020-09-18 04:30:00.002
+2020-09-17 09:52:21,330 INFO 94397 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 50858670ms at 2020-09-18 00:00:00.000
+2020-09-17 09:52:21,330 INFO 94397 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 50859670ms at 2020-09-18 00:00:01.000
+2020-09-17 09:52:20,930 INFO 94406 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-09-17 09:52:20,930 INFO 94406 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-09-17 09:52:20,930 INFO 94406 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-09-17 09:58:08,481 INFO 94661 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-09-17 09:58:08,481 INFO 94661 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-09-17 09:58:08,481 INFO 94661 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-09-28 15:41:55,665 INFO 3231 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46084339ms at 2020-09-29 04:30:00.004
+2020-09-28 15:41:55,665 INFO 3231 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29884335ms at 2020-09-29 00:00:00.000
+2020-09-28 15:41:55,666 INFO 3231 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29885335ms at 2020-09-29 00:00:01.001
+2020-09-28 15:41:55,249 INFO 3243 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-09-28 15:41:55,249 INFO 3243 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-09-28 15:41:55,249 INFO 3243 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-09-29 00:00:00,181 INFO 3243 [Job#1601308800135323499154398871] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-09-29 00:00:00,207 INFO 3243 [Job#1601308800135323499154398871] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 15ms. 
+2020-09-29 00:00:00,151 INFO 3231 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399857ms at 2020-09-30 00:00:00.008
+2020-09-29 00:00:01,132 INFO 3243 [Job#1601308801131323509100392121] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-09-29 00:00:01,139 INFO 3243 [Job#1601308801131323509100392121] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms. 
+2020-09-29 00:00:01,134 INFO 3231 [Timer] /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399869ms at 2020-09-30 00:00:01.003

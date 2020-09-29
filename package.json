@@ -14,12 +14,15 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@types/jest": "^23.3.12",
     "@types/react": "^16.7.18",
     "@types/react-dom": "^16.0.11",
     "@types/react-test-renderer": "^16.0.3",
     "babel-eslint": "^9.0.0",
     "eslint": "^5.4.0",
+    "eslint-config-egg": "^8.1.2",
     "eslint-config-umi": "^1.4.0",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.14.0",
@@ -32,6 +35,12 @@
     "umi-plugin-antd-icon-config": "^2.0.3",
     "umi-plugin-react": "^1.8.0",
     "umi-types": "^0.3.0"
+  },
+  "husky":{
+    "hooks":{
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
