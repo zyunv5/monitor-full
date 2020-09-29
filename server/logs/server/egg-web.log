@@ -1,3 +1,6 @@
 2020-09-29 00:00:01,141 INFO 3243 [egg-logrotator] app logger reload: got log-reload message
 2020-09-29 04:30:00,206 INFO 3243 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/tmp/egg-multipart-tmp/server"
 2020-09-29 04:30:00,211 INFO 3243 [-/127.0.0.1/-/8ms SCHEDULE /__schedule?path=/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-09-29 13:56:41,097 WARN 3243 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-29 13:59:20,431 WARN 3243 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-09-29 14:01:12,045 WARN 3243 [ClusterClient:Watcher] follower closed, and try to init it again

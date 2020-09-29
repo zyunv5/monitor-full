@@ -1,0 +1,24 @@
+2020-09-29 13:56:41,105 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 606922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+
+2020-09-29 13:59:20,431 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 118710ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+
+2020-09-29 14:01:12,045 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 91585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+

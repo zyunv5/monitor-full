@@ -17,7 +17,7 @@ const menu = (
 );
 
 class Sider extends React.Component {
-  handleClick = e => {
+  handleClick = (e) => {
     console.log('click ', e);
   };
 

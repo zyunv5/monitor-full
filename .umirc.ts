@@ -16,7 +16,9 @@ const config: IConfig = {
       'umi-plugin-react',
       {
         antd: true,
-        dva: true,
+        dva: {
+          immer:true
+        },
         dynamicImport: false,
         title: 'monitor-full',
         dll: false,

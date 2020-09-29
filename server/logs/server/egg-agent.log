@@ -1,1 +1,25 @@
 2020-09-29 00:00:01,141 INFO 3231 [egg-logrotator] agent logger reload: got log-reload message
+2020-09-29 13:56:41,112 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 606922ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+
+2020-09-29 13:59:20,437 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 118710ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+
+2020-09-29 14:01:12,046 ERROR 3231 nodejs.ClusterClientNoResponseError: client no response in 91585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3231
+hostname: ZyunMBP.local
+
