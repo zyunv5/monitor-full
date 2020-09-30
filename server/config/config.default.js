@@ -18,7 +18,7 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
-  //链接mysql数据库
+  // 链接mysql数据库
   config.sequelize = {
     dialect: 'mysql',
     host: '127.0.0.1',
@@ -31,13 +31,13 @@ module.exports = appInfo => {
     password: 'admin',
   };
 
-  //设置跨域
+  // 设置跨域
   config.security = {
     csrf: {
       enable: false,
       ignoreJSON: true,
     },
-    domainWhiteList: ['http://localhost:8899', 'http://localhost:9988'],
+    domainWhiteList: [ '*', 'http://localhost:8000' ],
   };
   config.cors = {
     origin: '*',

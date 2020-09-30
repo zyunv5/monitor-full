@@ -1,0 +1,18 @@
+2020-09-30 10:53:43,550 INFO 57948 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 15:19:20,795 INFO 62404 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 15:19:53,854 INFO 62435 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 15:21:58,480 INFO 62592 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:11:39,946 INFO 63512 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:15:28,773 INFO 63711 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:17:27,876 INFO 63833 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:21:02,139 INFO 63985 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:21:04,161 INFO 64000 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:58:17,235 INFO 64565 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:59:00,698 INFO 64601 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 16:59:25,888 INFO 64704 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 17:45:07,477 INFO 65543 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 17:45:08,805 INFO 65555 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 17:45:11,345 INFO 65560 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 17:45:12,499 INFO 65570 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2020-09-30 17:46:02,214 INFO 65570 [egg-sequelize](24ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
+2020-09-30 18:14:49,097 INFO 65570 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;

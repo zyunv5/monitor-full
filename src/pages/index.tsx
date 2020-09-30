@@ -76,25 +76,34 @@ const data = [
   },
 ];
 
-const Index = ({ Index }) => {
-  console.log(Index.count);
-  return (
-    <div className={styles.container}>
-      <span>报错</span>
-      <div className={styles.container_search}></div>
-      <div className={styles.container_table}>
-        <Table columns={columns} dataSource={data} />
+class Index extends React.Component {
+  componentDidMount() {
+    console.log(this.props)
+    this.props.dispatch({type:"Index/getList"})
+  }
+  render() {
+    return (
+      <div className={styles.container}>
+        <span>报错</span>
+        <div className={styles.container_search}></div>
+        <div className={styles.container_table}>
+          <Table columns={columns} dataSource={data} />
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 const mapStateToProps = ({ ...Index }) => {
   return {
     ...Index,
   };
 };
-const mapDispatchToProps=()=>{
-  return {}
-}
+// const mapDispatchToProps = dispatch => {
+//   getList = dispatch => {
+//     dispatch({ type: 'Index/getList' });
+//   };
+// };
 
-export default connect(mapStateToProps,mapDispatchToProps)(Index);
+export default connect(
+  mapStateToProps,
+)(Index);

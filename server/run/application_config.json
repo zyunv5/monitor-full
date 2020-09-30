@@ -14,8 +14,8 @@
     },
     "security": {
       "domainWhiteList": [
-        "http://localhost:8899",
-        "http://localhost:9988"
+        "*",
+        "http://localhost:8000"
       ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",

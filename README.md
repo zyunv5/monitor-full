@@ -49,3 +49,5 @@ mysql 没启动 Orz
 ### antd4 中不到ant-design/icons
 1. 先安装yarn add umi-plugin-antd-icon-config -D
 2. plugin:[ ['umi-plugin-antd-icon-config', {}]]
+### esponse must not be the wildcard '*' when the request's credentials mode is 'include'.
+请求开启了携带cookie模式，去除掉

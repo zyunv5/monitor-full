@@ -17,7 +17,7 @@ const config: IConfig = {
       {
         antd: true,
         dva: {
-          immer:true
+          immer: true,
         },
         dynamicImport: false,
         title: 'monitor-full',
@@ -34,6 +34,13 @@ const config: IConfig = {
       },
     ],
   ],
+  proxy: {
+    '/api': {
+      target: 'http://localhost:8899/',
+      pathRewrite: { '^/api': '' },
+      changeOrigin: true,
+    },
+  },
 };
 
 export default config;

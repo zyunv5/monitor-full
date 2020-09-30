@@ -5,7 +5,7 @@
 //   effects: {}, // 管理异步操作，采用了 generator 的相关概念
 //   subscriptions: {}, // 订阅数据源
 // };
-import request from "@/untils/request.js"
+import request from '@/untils/request.js';
 import { Effect, Reducer } from 'umi';
 
 export interface IndexModelState {
@@ -22,16 +22,20 @@ export interface IndexModelType {
   };
 }
 
+function getTestData() {
+  return request.get('http://localhost:8000/api/error');
+}
+
 const IndexModel: IndexModelType = {
   namespace: 'Index',
   state: {
     count: 99,
   },
   effects: {
-    *login({ payload }, { call, put }) {
-      console.log(1);
-      const result=yield request("http://localhost:8899/")
-      console.log(result);
+    *getList({ payload }, { call, put }) {
+      const result = yield call(getTestData);
+      console.log('result', result);
+      yield put({ type: 'save', payload: result });
     },
   },
   reducers: {
