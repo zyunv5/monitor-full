@@ -25,16 +25,25 @@ export interface IndexModelType {
 function getTestData() {
   return request.get('http://localhost:8000/api/error');
 }
+function getData() {
+  return request.get('/api/data');
+}
 
 const IndexModel: IndexModelType = {
   namespace: 'Index',
   state: {
     count: 99,
+    data:[]
   },
   effects: {
     *getList({ payload }, { call, put }) {
       const result = yield call(getTestData);
       console.log('result', result);
+      yield put({ type: 'save', payload: result });
+    },
+    *getData({ payload }, { call, put }) {
+      const result = yield call(getData);
+      console.log('data', result);
       yield put({ type: 'save', payload: result });
     },
   },
@@ -45,6 +54,9 @@ const IndexModel: IndexModelType = {
         ...action.payload,
       };
     },
+    saveData(state,action){
+
+    }
   },
 };
 

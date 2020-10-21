@@ -20,7 +20,7 @@ const config: IConfig = {
           immer: true,
         },
         dynamicImport: false,
-        title: 'monitor-full',
+        title: '监控平台',
         dll: false,
         routes: {
           exclude: [

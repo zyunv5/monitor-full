@@ -212,3 +212,16 @@
 2020-09-30 17:45:12,465 INFO 65570 [egg:core] dump config after load, 4ms
 2020-09-30 17:45:12,480 INFO 65570 [egg-watcher:application] watcher start success
 2020-09-30 17:45:12,516 INFO 65570 [egg:core] dump config after ready, 13ms
+2020-09-30 18:21:29,123 INFO 66531 [egg:logger] init all loggers with options: {"dir":"/Users/admin/Documents/zy/zyTest/monitor-full/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-09-30 18:21:29,149 INFO 66531 [egg-multipart] stream mode enable
+2020-09-30 18:21:29,631 INFO 66531 [egg-static] starting static serve /public/ -> /Users/admin/Documents/zy/zyTest/monitor-full/server/app/public
+2020-09-30 18:21:29,633 INFO 66531 [egg-security] use methodnoallow middleware
+2020-09-30 18:21:29,634 INFO 66531 [egg-security] use noopen middleware
+2020-09-30 18:21:29,634 INFO 66531 [egg-security] use nosniff middleware
+2020-09-30 18:21:29,635 INFO 66531 [egg-security] use xssProtection middleware
+2020-09-30 18:21:29,635 INFO 66531 [egg-security] use xframe middleware
+2020-09-30 18:21:29,636 INFO 66531 [egg-security] use dta middleware
+2020-09-30 18:21:29,636 INFO 66531 [egg-security] compose 6 middlewares into one security middleware
+2020-09-30 18:21:29,645 INFO 66531 [egg:core] dump config after load, 4ms
+2020-09-30 18:21:29,673 INFO 66531 [egg-watcher:application] watcher start success
+2020-09-30 18:21:29,692 INFO 66531 [egg:core] dump config after ready, 5ms

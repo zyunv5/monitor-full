@@ -8,7 +8,7 @@ const columns = [
     title: 'Name',
     dataIndex: 'name',
     key: 'name',
-    render: text => <a>{text}</a>,
+    render: (text: any) => <a>{text}</a>,
   },
   {
     title: 'Age',
@@ -52,34 +52,11 @@ const columns = [
   },
 ];
 
-const data = [
-  {
-    key: '1',
-    name: 'John Brown',
-    age: 32,
-    address: 'New York No. 1 Lake Park',
-    tags: ['nice', 'developer'],
-  },
-  {
-    key: '2',
-    name: 'Jim Green',
-    age: 42,
-    address: 'London No. 1 Lake Park',
-    tags: ['loser'],
-  },
-  {
-    key: '3',
-    name: 'Joe Black',
-    age: 32,
-    address: 'Sidney No. 1 Lake Park',
-    tags: ['cool', 'teacher'],
-  },
-];
+const data = [];
 
 class Index extends React.Component {
   componentDidMount() {
-    console.log(this.props)
-    this.props.dispatch({type:"Index/getList"})
+    console.log(this.props);
   }
   render() {
     return (
@@ -98,12 +75,11 @@ const mapStateToProps = ({ ...Index }) => {
     ...Index,
   };
 };
-// const mapDispatchToProps = dispatch => {
-//   getList = dispatch => {
-//     dispatch({ type: 'Index/getList' });
-//   };
-// };
 
-export default connect(
-  mapStateToProps,
-)(Index);
+const mapDispatchToProps=(dispatch)=>{
+  return {
+    data:dispatch({type:"Index/getData"})
+  }
+}
+
+export default connect(mapStateToProps,mapDispatchToProps)(Index);

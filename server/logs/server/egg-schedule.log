@@ -61,3 +61,6 @@
 2020-09-30 17:45:12,184 INFO 65570 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
 2020-09-30 17:45:12,184 INFO 65570 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js
 2020-09-30 17:45:12,184 INFO 65570 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-09-30 18:21:29,148 INFO 66531 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-09-30 18:21:29,148 INFO 66531 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-09-30 18:21:29,148 INFO 66531 [egg-schedule]: register schedule /Users/admin/Documents/zy/zyTest/monitor-full/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

@@ -16,3 +16,4 @@
 2020-09-30 17:45:12,499 INFO 65570 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
 2020-09-30 17:46:02,214 INFO 65570 [egg-sequelize](24ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
 2020-09-30 18:14:49,097 INFO 65570 [egg-sequelize](1ms) Executed (default): SELECT `id`, `title`, `currentUrl`, `timestamp`, `userAgent`, `kind`, `type`, `errorType`, `filename`, `tagName`, `message`, `position`, `stack`, `selector`, `createdAt`, `updatedAt` FROM `js-error` AS `js-error`;
+2020-09-30 18:21:29,684 INFO 66531 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
