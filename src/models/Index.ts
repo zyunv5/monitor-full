@@ -35,6 +35,20 @@ const IndexModel: IndexModelType = {
     count: 99,
     data:[]
   },
+  reducers: {
+    save(state, action) {
+      return {
+        ...state,
+        ...action.payload,
+      };
+    },
+    saveData(state,action){
+      return {
+        ...state,
+        ...action.payload
+      }
+    }
+  },
   effects: {
     *getList({ payload }, { call, put }) {
       const result = yield call(getTestData);
@@ -44,19 +58,8 @@ const IndexModel: IndexModelType = {
     *getData({ payload }, { call, put }) {
       const result = yield call(getData);
       console.log('data', result);
-      yield put({ type: 'save', payload: result });
+      yield put({ type: 'saveData', payload: result });
     },
-  },
-  reducers: {
-    save(state, action) {
-      return {
-        ...state,
-        ...action.payload,
-      };
-    },
-    saveData(state,action){
-
-    }
   },
 };
 

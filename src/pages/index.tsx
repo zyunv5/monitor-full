@@ -52,13 +52,14 @@ const columns = [
   },
 ];
 
-const data = [];
-
 class Index extends React.Component {
+
   componentDidMount() {
-    console.log(this.props);
+    this.props.getData()
   }
+
   render() {
+    const data=this.props['Index'].data
     return (
       <div className={styles.container}>
         <span>报错</span>
@@ -76,10 +77,13 @@ const mapStateToProps = ({ ...Index }) => {
   };
 };
 
-const mapDispatchToProps=(dispatch)=>{
+const mapDispatchToProps = dispatch => {
   return {
-    data:dispatch({type:"Index/getData"})
-  }
-}
+    getData: () => dispatch({ type: 'Index/getData' }),
+  };
+};
 
-export default connect(mapStateToProps,mapDispatchToProps)(Index);
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(Index);
