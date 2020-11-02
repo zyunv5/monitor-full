@@ -35,7 +35,7 @@ function useComponentSize(ref){
       resizeObserver.disconnect(ref.current);
       resizeObserver=null;
     };
-  }, [])
+  }, [handleResize, ref])
 
   return componentSize;
 }

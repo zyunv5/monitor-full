@@ -41,6 +41,30 @@ const config: IConfig = {
           path: '/example8',
           component: '../pages/example8.tsx',
         },
+        {
+          path: '/example9',
+          component: '../pages/example9.tsx',
+        },
+        {
+          path: '/example10',
+          component: '../pages/example10.tsx',
+        },
+        {
+          path: '/example11',
+          component: '../pages/example11.tsx',
+        },
+        {
+          path: '/example12',
+          component: '../pages/example12.tsx',
+        },
+        {
+          path: '/example13',
+          component: '../pages/example13.tsx',
+        },
+        {
+          path: '/example14',
+          component: '../pages/example14.tsx',
+        },
       ],
     },
   ],
