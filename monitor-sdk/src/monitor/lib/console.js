@@ -1,5 +1,6 @@
 // hack console
 //  Config.behavior.console 取值为["debug", "info", "warn", "log", "error"]
+// 未启用
 
 // export function hackConsole() {
 //   if (window && window.console) {

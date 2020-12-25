@@ -1,3 +1,4 @@
+//页面打开监控
 import tracker from '../utils/tracker'
 import onload from '../lib/onload'
 import getLastEvent from '../utils/getLastEvent'

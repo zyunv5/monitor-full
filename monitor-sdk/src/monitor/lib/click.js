@@ -1,3 +1,4 @@
+//click 事件监控 未启用
 window.addEventListener('click', handleClick, true);
 
 export function handleClick(event) {

@@ -1,4 +1,4 @@
-//js error捕获
+//js error捕获 启用
 import getLastEvent from '../utils/getLastEvent';
 import getSelector from '../utils/getSelector';
 import tracker from '../utils/tracker';
